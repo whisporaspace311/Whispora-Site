@@ -1,0 +1,33 @@
+---
+// src/pages/index.astro
+import MainLayout from '../layouts/MainLayout.astro';
+---
+<MainLayout title="Welcome to Whispora Space!" description="Discover a world of stories, songs, and learning adventures.">
+  <div class="text-center py-12">
+    <h1 class="text-5xl font-bold text-purple-700 mb-6">
+      Welcome to Whispora Space!
+    </h1>
+    <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+      Get ready to explore a universe filled with amazing stories, joyful songs, fascinating history, and fun learning activities.
+      This is just the beginning of our adventure together!
+    </p>
+    <a href="/stories" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+      Explore Stories
+    </a>
+  </div>
+
+  <div class="mt-16 grid md:grid-cols-3 gap-8 text-center">
+    <div class="bg-white/70 p-6 rounded-xl shadow-lg">
+      <h2 class="text-2xl font-semibold text-pink-600 mb-3">Stories</h2>
+      <p class="text-gray-600">Dive into enchanting tales from around the world.</p>
+    </div>
+    <div class="bg-white/70 p-6 rounded-xl shadow-lg">
+      <h2 class="text-2xl font-semibold text-teal-600 mb-3">Songs</h2>
+      <p class="text-gray-600">Sing along to joyful melodies and rhymes.</p>
+    </div>
+    <div class="bg-white/70 p-6 rounded-xl shadow-lg">
+      <h2 class="text-2xl font-semibold text-orange-600 mb-3">Learning Hub</h2>
+      <p class="text-gray-600">Discover new things in a fun and interactive way.</p>
+    </div>
+  </div>
+</MainLayout>
