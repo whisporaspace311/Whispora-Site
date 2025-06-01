@@ -1,0 +1,29 @@
+{
+  "name": "whispora-space",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A magical place for children to explore stories, songs, history, and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [
+    "kids",
+    "children",
+    "stories",
+    "education",
+    "fun"
+  ],
+  "author": "Your Name or Whispora Team",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",  // Version will be set by npm install
+    "astro": "^4.8.6",             // Version will be set by npm install
+    "autoprefixer": "^10.4.19",    // Version will be set by npm install
+    "tailwindcss": "^3.4.3"        // Version will be set by npm install
+  }
+}
